@@ -1,0 +1,307 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-color:black;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+position:relative;
+color:white;
+font-size: 30px;
+
+}
+
+
+p{
+position:absolute;
+font-size:30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+float:left;
+position:relative;
+left:450px;
+}
+
+
+li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 44px 50px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: #DCC9C5;
+  color:#E8F3CE;
+}
+
+li2 {
+float:right;
+position:relative;
+right:450px;
+}
+
+li2 a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 44px 50px;
+  text-decoration: none;
+
+}
+
+li2 a:hover {
+  background-color: #DCC9C5;
+  color:#E8F3CE;
+}
+
+lionimg {
+position:absolute;
+top:10px;
+left:870px;
+}
+
+
+
+.container2 {
+  position: absolute;
+  text-align: center;
+  color: gray;
+  background-color:white;
+  border-style: solid;
+    width: 15%;
+  height: 35%;
+   left:20%;
+   top:30%;
+  
+}
+
+  .btn {
+  position:relative;
+  left:25%;
+  border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 26px;
+  cursor: pointer;
+  display: inline-block;
+  color:lightblue;
+  text-decoration: none;
+}
+
+
+
+
+
+.bottom-left {
+  position: absolute;
+  top: 80%;
+  width:100%;
+  height:66px;
+  background-color: lightgray;
+  float:left;
+  color:black;
+  font-size:11px;
+  }
+ 
+.ingredients {
+position:absolute;
+left:20%;
+top:10px;
+
+} 
+ 
+
+
+</style>
+</head>
+<body>
+<ul>
+  <li><a href="http://localhost:8080/sitefournos2/productsmenu.html">Products</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+
+  <li2><a href="about.html">About</a></li2>
+  <li2><a href="contact.html">Contact</a></li2>
+
+
+</ul>
+<lionimg>
+ <a href="http://localhost:8080/sitefournos2/mainmenu.html"><img class="lionimg" src="LionIcon.png" style="border:none" alt="" width="200" height="100"></a>
+ </lionimg>
+
+
+<h2><center>Άρτος</center></h2>
+<br>
+
+<button class="btn" onclick="myFunction4()" style="left:700px;">Προζύμι</button>
+<button class="btn" onclick="myFunction5()" style="left:703px;">Χωριάτικο</button>
+<button class="btn" onclick="myFunction6()" style="left:703px;">Ολικής άλεσης</button>
+
+
+
+<div id="prozymi" style="display:none;">
+<div  class="container2" style="display:block;">
+
+ <img  src="http://localhost:8080/sitefournos2/images/%ce%bb%ce%b5%cf%85%ce%ba%ce%bf%20%cf%80%cf%81%ce%bf%ce%b6%cf%85%ce%bc%ce%b9.JPG" style="float:right;" alt="" width="100%" height="80%">
+ <div class="bottom-left" >
+<h1>Άσπρο προζύμι</h1>
+
+</div>
+</div>
+ 
+<div  class="container2" style="left:36%;">
+ <img  src="http://localhost:8080/sitefournos2/images/%ce%bc%ce%b1%cf%85%cf%81%ce%bf%20%cf%80%cf%81%ce%bf%ce%b6%cf%85%ce%bc%ce%b9.JPG" style="float:right;" alt="" width="100%" height="100%">
+
+ <div class="bottom-left">
+<h1>Μαύρο προζύμι</h1>
+</div>
+</div>
+ 
+<div  class="container2" style="left:52%;">
+ <img  src="http://localhost:8080/sitefournos2/images/%cf%80%ce%b1%cf%80%ce%b1%cf%81%ce%bf%cf%85%ce%bd%ce%bf%cf%83%cf%80%ce%bf%cf%81%ce%bf%cf%82%20%ce%bc%cf%85%cf%81%ce%bf.JPG" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1>Μαύρο προζύμι με παπαρουνόσπορο</h1>
+</div>
+</div>
+
+<div  class="container2" style="left:68%;">
+ <img  src="http://localhost:8080/sitefournos2/images/%cf%80%cf%81%ce%bf%ce%b6%cf%8d%ce%bc%ce%b9%20%cf%80%ce%bf%ce%bb%cf%8d%cf%83%cf%80%ce%bf%cf%81%ce%bf.JPG" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1>Μαύρο προζύμι πολύσπορο</h1>
+
+</div>
+</div>
+</div>
+
+<div id="asproxwriatiko" style="display:none;">
+<div  class="container2" style="display:block;">
+ <img  src="http://localhost:8080/sitefournos2/images/%cf%86%cf%81%ce%b1%cf%84%ce%b6%ce%bf%ce%bb%ce%b1%20%ce%b1%cf%80%ce%bb%ce%b7.JPG" style="float:right;" alt="" width="100%" height="80%">
+ <div class="bottom-left" >
+<h1>Φρατζόλα</h1>
+</div>
+</div>
+ 
+<div  class="container2" style="left:36%;">
+ <img  src="http://localhost:8080/sitefournos2/images/%cf%86%cf%81%ce%b1%cf%84%ce%b6%ce%bf%ce%bb%ce%b1%20%ce%bc%ce%b5%20%cf%83%ce%bf%cf%85%cf%83%ce%b1%ce%bc%ce%b9.JPG" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1>Φρατζόλα με σουσάμι</h1>
+</div>
+</div>
+ 
+<div  class="container2" style="left:52%;">
+ <img  src="http://localhost:8080/sitefournos2/images/%ce%bc%cf%80%ce%b1%ce%b3%ce%ba%ce%b5%cf%84%ce%b1.JPG" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1>Μπαγκέτα</h1>
+</div>
+</div>
+
+<div  class="container2" style="left:68%;">
+ <img  src="http://localhost:8080/sitefournos2/images/%ce%bb%ce%b1%ce%b4%ce%bf%cf%88%cf%89%ce%bc%ce%bf.JPG" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1>Λαδόψωμο</h1>
+</div>
+</div>
+<div  class="container2" style="top:67%;">
+ <img  src="http://localhost:8080/sitefournos2/images/%ce%b1%cf%84%ce%bf%ce%bc%ce%b9%ce%ba%ce%bf%20%cf%80%ce%b1%cf%80%ce%b1%cf%81%ce%bf%cf%85%ce%bd%ce%bf%cf%83%cf%80%ce%bf%cf%81%ce%bf%cf%82.JPG" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1>Ατομικό ψωμάκι</h1>
+</div>
+</div>
+
+ <div  class="container2" style="top:67%; left: 36%;">
+ <img src="http://localhost:8080/sitefournos2/images/%ce%bc%ce%b1%cf%81%ce%b3%ce%b1%cf%81%ce%af%cf%84%ce%b1.JPG" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left" >
+<h1>Μαργαρίτα</h1>
+</div>
+</div>
+
+<div  class="container2" style="top:67%; left: 52%;">
+ <img  src="http://localhost:8080/sitefournos2/images/%ce%ba%ce%b1%cf%81%ce%b2%ce%b5%ce%bb%ce%b1%ce%ba%ce%b9%20%cf%83%ce%bf%cf%85%cf%83%ce%b1%ce%bc%ce%b9.JPG" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1>καρβελάκι με σουσάμι</h1>
+</div>
+</div>
+
+ <div  class="container2" style="top:67%; left: 68%;">
+ <img  src="http://localhost:8080/sitefournos2/images/%ce%ba%ce%bf%cf%85%ce%bb%ce%bf%cf%85%cf%81%ce%b1%20%cf%83%ce%bf%cf%85%cf%83%ce%b1%ce%bc%ce%b9.JPG" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1>Κουλούρα με σουσάμι</h1>
+</div>
+</div>
+</div>
+
+<div id="mauroxwriatiko" style="display:none;">
+<div  class="container2" style="display:block;">
+ <img  src="http://localhost:8080/sitefournos2/images/%ce%bc%cf%80%ce%b1%ce%b3%ce%ba%ce%ad%cf%84%ce%b1%20%ce%bf%ce%bb%ce%b9%ce%ba%ce%ae%cf%82.JPG" style="float:right;" alt="" width="100%" height="80%">
+ <div class="bottom-left" >
+<h1>Μπαγκέτα</h1>
+</div>
+</div>
+ 
+<div  class="container2" style="left:36%;">
+ <img  src="http://localhost:8080/sitefournos2/images/%ce%bf%ce%bb%ce%ba%ce%b7%cf%82%20%cf%80%ce%bf%ce%bb%cf%85%cf%83%cf%80%ce%bf%cf%81%ce%bf.JPG" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1>Καρβελάκι πολύσπορο</h1>
+</div>
+</div>
+ 
+<div  class="container2" style="left:52%;">
+ <img  src="http://localhost:8080/sitefournos2/images/%ce%bf%ce%bb%ce%b9%ce%ba%ce%b7%cf%82%20%ce%ba%ce%b1%cf%81%ce%b2%ce%b5%ce%bb%ce%b1%ce%ba%ce%b9%202.JPG" style="float:right;" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1>Καρβελάκι </h1>
+</div>
+</div>
+
+<div  class="container2" style="left:68%;">
+ <img  src="http://localhost:8080/sitefournos2/images/%ce%bf%ce%bb%ce%b9%ce%ba%ce%b7%cf%82%20%cf%86%ce%bf%cf%81%ce%bc%ce%b1.JPG" alt="" width="100%" height="100%">
+ <div class="bottom-left">
+<h1>Φόρμα</h1>
+</div>
+</div>
+
+</div>
+</div>
+
+
+</div>
+
+
+
+ <script>
+function myFunction4() {
+  document.getElementById("prozymi").style.display = "block";
+  document.getElementById("asproxwriatiko").style.display = "none";
+  document.getElementById("mauroxwriatiko").style.display = "none";
+}
+</script>
+ <script>
+function myFunction5() {
+  document.getElementById("asproxwriatiko").style.display = "block";
+  document.getElementById("prozymi").style.display = "none";
+  document.getElementById("mauroxwriatiko").style.display = "none";
+}
+</script>
+ <script>
+function myFunction6() {
+  document.getElementById("mauroxwriatiko").style.display = "block";
+  document.getElementById("asproxwriatiko").style.display = "none";
+  document.getElementById("prozymi").style.display = "none";
+}
+</script>
+
+</body>
+</html>

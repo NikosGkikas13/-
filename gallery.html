@@ -1,0 +1,348 @@
+﻿<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+  background-color:black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+position:relative;
+  text-align: center;
+  background-color: #222;
+  color: white;
+  top:-33px;
+}
+
+.row{
+position:relative;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 7.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.img2{
+position:absolute;
+top:10px;
+left:870px;
+}
+ul {
+position:relative;
+top:8px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  margin-left:8px;
+  margin-right:8px;}
+
+li {
+float:left;
+position:relative;
+left:450px;
+}
+
+
+li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 44px 50px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: #DCC9C5;
+  color:#E8F3CE;
+}
+
+li2 {
+float:right;
+position:relative;
+right:450px;
+}
+
+li2 a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 44px 50px;
+  text-decoration: none;
+
+}
+
+li2 a:hover {
+  background-color: #DCC9C5;
+  color:#E8F3CE;
+}
+</style>
+<body>
+
+<ul>
+  <li><a href="http://localhost:8080/sitefournos2/productsmenu.html">Products</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li2><a href="http://localhost:8080/sitefournos2/about.html">About</a></li2>
+  <li2><a href="contact.html">Contact</a></li2>
+
+
+</ul>
+
+<a href="http://localhost:8080/sitefournos2/mainmenu.html"><img class="img2" src="LionIcon.png" alt="" width="200" height="100"></a>
+
+<div class="container" style="width:80%; top:20px;">
+  <div class="mySlides">
+    <div class="numbertext">1 / 15</div>
+    <img src="http://localhost:8080/sitefournos2/images/DSC00058.JPG" style="height:900px; width:100%;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 15</div>
+    <img src="http://localhost:8080/sitefournos2/images/DSC00054.JPG" style="height:900px; width:100%;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 15</div>
+    <img src="http://localhost:8080/sitefournos2/images/DSC00053.JPG" style="height:900px; width:100%;">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 15</div>
+    <img src="http://localhost:8080/sitefournos2/images/DSC00052.JPG" style="height:900px; width:100%;">
+  </div>
+
+    
+  <div class="mySlides">
+    <div class="numbertext">5 / 15</div>
+    <img src="http://localhost:8080/sitefournos2/images/DSC00061.JPG" style="height:900px; width:100%;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 15</div>
+    <img src="http://localhost:8080/sitefournos2/images/DSC00063.JPG" style="height:900px; width:100%;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">7 / 15</div>
+    <img src="http://localhost:8080/sitefournos2/images/DSC00064.JPG" style="height:900px; width:100%;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">8 / 15</div>
+    <img src="http://localhost:8080/sitefournos2/images/DSC00069.JPG" style="height:900px; width:100%;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">9 / 15</div>
+    <img src="http://localhost:8080/sitefournos2/images/DSC00071.JPG" style="height:900px; width:100%;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">10 / 15</div>
+    <img src="http://localhost:8080/sitefournos2/images/DSC00072.JPG" style="height:900px; width:100%;">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">11 / 15</div>
+    <img src="http://localhost:8080/sitefournos2/images/DSC00073.JPG" style="height:900px; width:100%;">
+  </div> 
+  
+  
+  <div class="mySlides">
+    <div class="numbertext">12 / 15</div>
+    <img src="http://localhost:8080/sitefournos2/images/DSC00074.JPG" style="height:900px; width:100%;">
+  </div> 
+  
+    <div class="mySlides">
+    <div class="numbertext">130 / 15</div>
+    <img src="http://localhost:8080/sitefournos2/images/DSC00076.JPG" style="height:900px; width:100%;">
+  </div> 
+  
+    <div class="mySlides">
+    <div class="numbertext">14 / 15</div>
+    <img src="http://localhost:8080/sitefournos2/images/DSC00077.JPG" style="height:900px; width:100%;">
+  </div> 
+  
+      <div class="mySlides">
+    <div class="numbertext">15 / 15</div>
+    <img src="http://localhost:8080/sitefournos2/images/DSC00122.JPG" style="height:900px; width:100%;">
+  </div> 
+  
+     
+  
+  <a class="prev" onclick="plusSlides(-1)"><i class="fa fa-chevron-left" style="font-size:24px"></i></a>
+  <a class="next" onclick="plusSlides(1)"><i class="fa fa-chevron-right" style="font-size:24px"></i></a>
+
+  <div class="caption-container">
+    <p style="font-size:34px;"><b>Gallery</b></p>
+  </div>
+
+  <div class="row" style="top:-66px;">
+    <div class="column">
+      <img class="demo cursor" src="http://localhost:8080/sitefournos2/images/DSC00058.JPG" style="width:100% " onclick="currentSlide(1)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="http://localhost:8080/sitefournos2/images/DSC00054.JPG" style="width:100%" onclick="currentSlide(2)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="http://localhost:8080/sitefournos2/images/DSC00053.JPG" style="width:100%" onclick="currentSlide(3)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="http://localhost:8080/sitefournos2/images/DSC00052.JPG" style="width:100%" onclick="currentSlide(4)">
+    </div>  
+    <div class="column">
+      <img class="demo cursor" src="http://localhost:8080/sitefournos2/images/DSC00061.JPG" style="width:100%" onclick="currentSlide(5)">
+    </div>
+	    <div class="column">
+      <img class="demo cursor" src="http://localhost:8080/sitefournos2/images/DSC00063.JPG" style="width:100%" onclick="currentSlide(6)">
+    </div>
+	    <div class="column">
+      <img class="demo cursor" src="http://localhost:8080/sitefournos2/images/DSC00064.JPG" style="width:100%" onclick="currentSlide(7)">
+    </div>
+	    <div class="column">
+      <img class="demo cursor" src="http://localhost:8080/sitefournos2/images/DSC00069.JPG" style="width:100%" onclick="currentSlide(8)" >
+    </div>
+	    <div class="column">
+      <img class="demo cursor" src="http://localhost:8080/sitefournos2/images/DSC00071.JPG" style="width:100%" onclick="currentSlide(9)" >
+    </div>
+	    <div class="column">
+      <img class="demo cursor" src="http://localhost:8080/sitefournos2/images/DSC00072.JPG" style="width:100%" onclick="currentSlide(10)" >
+    </div>  
+	<div class="column">
+      <img class="demo cursor" src="http://localhost:8080/sitefournos2/images/DSC00073.JPG" style="width:100%" onclick="currentSlide(11)" >
+    </div>
+	
+	      <div class="column">
+      <img class="demo cursor" src="http://localhost:8080/sitefournos2/images/DSC00074.JPG" style="width:100%" onclick="currentSlide(12)" >
+    </div>
+	     <div class="column">
+      <img class="demo cursor" src="http://localhost:8080/sitefournos2/images/DSC00076.JPG" style="width:100%" onclick="currentSlide(13)">
+    </div>
+	     <div class="column">
+      <img class="demo cursor" src="http://localhost:8080/sitefournos2/images/DSC00077.JPG" style="width:100%" onclick="currentSlide(14)" >
+    </div>
+	<div class="column">
+      <img class="demo cursor" src="http://localhost:8080/sitefournos2/images/DSC00122.JPG" style="width:100%" onclick="currentSlide(15)" >
+    </div>
+
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+</body>
+</html>

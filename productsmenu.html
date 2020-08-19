@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+background-color:black;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+color:white;
+font-size: 30px;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+float:left;
+position:relative;
+left:450px;
+}
+
+
+li a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 44px 50px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: #DCC9C5;
+  color:#E8F3CE;
+}
+
+li2 {
+float:right;
+position:relative;
+right:450px;
+}
+
+li2 a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 44px 50px;
+  text-decoration: none;
+
+}
+
+li2 a:hover {
+  background-color: #DCC9C5;
+  color:#E8F3CE;
+}
+
+lionimg {
+position:absolute;
+top:10px;
+left:870px;
+}
+
+menuimg{
+position:relative;
+
+
+}
+%%.bread:hover {opacity: 0.6}
+
+img {
+  border: 3px solid #555;
+  border-color:white;
+}
+
+.container {
+  position: relative;
+  top:100px;
+  left:400px;
+  width: 256px;
+  height: 206px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: gray;
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+</style>
+</head>
+<body>
+<ul>
+  <li><a href="http://localhost:8080/sitefournos2/productsmenu.html">Products</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+
+  <li2><a href="about.html">About</a></li2>
+  <li2><a href="contact.html">Contact</a></li2>
+
+
+</ul>
+<lionimg>
+ <a href="http://localhost:8080/sitefournos2/mainmenu.html"><img class="lionimg" src="LionIcon.png" style="border:none" alt="" width="200" height="100"></a>
+ </lionimg>
+<h2><center><u>Our products</u></center></h2>
+
+<div class="container" style="position:absolute; left:408px; top:282px" >
+<img class="menuimg" src="http://localhost:8080/sitefournos2/background/20200419-no-knead-bread-vicky-wasik2.jpg" alt="" width="250" height="200">
+<div class="overlay">
+	<a href="http://localhost:8080/sitefournos2/artos.html"><div class="text">Άρτος</div></a>
+	</div>
+</div>
+
+
+<div class="container" style="position:absolute; left:696px; top:282px">
+<img class="menuimg" src="http://localhost:8080/sitefournos2/background/1_PAN6157-m.jpg" alt="" width="250" height="200">
+<div class="overlay">
+	<a href="http://localhost:8080/sitefournos2/coffee.html"><div class="text">Καφές</div></a>
+	</div>
+</div>
+
+<div class="container" style=" position:absolute; left:408px; top:520px">
+<img class="menuimg" src="http://localhost:8080/sitefournos2/background/unnamed.jpg" alt="" width="250" height="200">
+<div class="overlay">
+	<a href="http://localhost:8080/sitefournos2/siropiasta.html"><div class="text">Σιροπιαστά γλυκά</div></a>
+	</div>
+</div>
+
+<div class="container" style="position:absolute; left:696px; top:520px">
+<img class="menuimg" src="http://localhost:8080/sitefournos2/background/pagwtinia.jpg" alt="" width="250" height="200">
+<div class="overlay">
+	<a href="http://localhost:8080/sitefournos2/pagwtinia.html"><div class="text">Εποχιακά γλυκά</div></a>
+	</div>
+</div>
+
+<div class="container" style="position:absolute; left:984px; top:282px">
+<img class="menuimg" src="http://localhost:8080/sitefournos2/background/1455623251992.jpg" alt="" width="250" height="200">
+<div class="overlay">
+	<a href="http://localhost:8080/sitefournos2/koulouria.html"><div class="text">Κουλούρια</div></a>
+	</div>
+</div>
+
+<div class="container" style="position:absolute; left:984px; top:520px">
+<img class="menuimg" src="http://localhost:8080/sitefournos2/background/%ce%9a%ce%a1%ce%97%ce%a4%ce%99%ce%9a%ce%9f%ce%a3-%ce%9d%ce%a4%ce%91%ce%9a%ce%9f%ce%a3-CRETAN-DAKOS.jpg" alt="" width="250" height="200">
+<div class="overlay">
+	<a href="http://localhost:8080/sitefournos2/paksimadia.html"><div class="text">Παξιμάδια</div>
+	</div>
+</div>
+
+<div class="container" style="position:absolute; left:1272px; top:282px">
+<img class="menuimg" src="http://localhost:8080/sitefournos2/background/turopita-strifth-saligkaros.jpg" alt="" width="250" height="200">
+<div class="overlay">
+	<a href="http://localhost:8080/sitefournos2/sfoliatoeidh.html"><div class="text">Σφολιατοειδή</div></a>
+	</div>
+</div>
+
+<div class="container" style="position:absolute; left:1272px; top:520px">
+<img class="menuimg" src="http://localhost:8080/sitefournos2/background/364337-753552_0.jpg" alt="" width="250" height="200">
+<div class="overlay">
+	<a href="http://localhost:8080/sitefournos2/snack.html"><div class="text">Σνακ</div></a>
+	</div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
